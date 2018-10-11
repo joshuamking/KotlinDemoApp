@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:interpolator/accelerate_decelerate">
+
+    <targets>
+        <target android:excludeId="@android:id/statusBarBackground" />
+        <target android:excludeId="@android:id/navigationBarBackground" />
+    </targets>
+
+    <changeBounds />
+    <changeClipBounds />
+    <changeTransform />
+    <arcMotion
+        android:minimumHorizontalAngle="45"
+        android:minimumVerticalAngle="45" />
+</transitionSet>

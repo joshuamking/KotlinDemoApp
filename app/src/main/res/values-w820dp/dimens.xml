@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_vertical_margin">48dp</dimen>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <fraction name="horizontal_guideline_left">0.2</fraction>
+    <fraction name="horizontal_guideline_right">0.8</fraction>
+</resources>
